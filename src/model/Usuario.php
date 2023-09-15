@@ -1,5 +1,5 @@
 <?php
-
+namespace App\model;
 class Usuario{
     private $nome;
     function __construct($nome){
@@ -8,7 +8,6 @@ class Usuario{
     public function getNome(){
         return $this->nome;
     }
-
 }
     /*
         private $nome; [...]
